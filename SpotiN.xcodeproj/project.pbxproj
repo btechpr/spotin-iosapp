@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAEFAE91DB1B48800AF2532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */; };
+		0EAEFAEB1DB1B48800AF2532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */; };
+		0EAEFAEE1DB1B48800AF2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEC1DB1B48800AF2532 /* Main.storyboard */; };
+		0EAEFAF01DB1B48800AF2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */; };
+		0EAEFAF31DB1B48800AF2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAF11DB1B48800AF2532 /* LaunchScreen.storyboard */; };
+		0EAEFAFE1DB1B48800AF2532 /* SpotiNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAFD1DB1B48800AF2532 /* SpotiNTests.swift */; };
+		0EAEFB091DB1B48800AF2532 /* SpotiNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFB081DB1B48800AF2532 /* SpotiNUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EAEFAFA1DB1B48800AF2532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EAEFADD1DB1B48800AF2532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EAEFAE41DB1B48800AF2532;
+			remoteInfo = SpotiN;
+		};
+		0EAEFB051DB1B48800AF2532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EAEFADD1DB1B48800AF2532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EAEFAE41DB1B48800AF2532;
+			remoteInfo = SpotiN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EAEFAE51DB1B48800AF2532 /* SpotiN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotiN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EAEFAED1DB1B48800AF2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EAEFAF21DB1B48800AF2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EAEFAF41DB1B48800AF2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAEFAF91DB1B48800AF2532 /* SpotiNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAEFAFD1DB1B48800AF2532 /* SpotiNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiNTests.swift; sourceTree = "<group>"; };
+		0EAEFAFF1DB1B48800AF2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAEFB041DB1B48800AF2532 /* SpotiNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAEFB081DB1B48800AF2532 /* SpotiNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiNUITests.swift; sourceTree = "<group>"; };
+		0EAEFB0A1DB1B48800AF2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAEFAE21DB1B48800AF2532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFAF61DB1B48800AF2532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFB011DB1B48800AF2532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EAEFADC1DB1B48800AF2532 = {
+			isa = PBXGroup;
+			children = (
+				0EAEFAE71DB1B48800AF2532 /* SpotiN */,
+				0EAEFAFC1DB1B48800AF2532 /* SpotiNTests */,
+				0EAEFB071DB1B48800AF2532 /* SpotiNUITests */,
+				0EAEFAE61DB1B48800AF2532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EAEFAE61DB1B48800AF2532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEFAE51DB1B48800AF2532 /* SpotiN.app */,
+				0EAEFAF91DB1B48800AF2532 /* SpotiNTests.xctest */,
+				0EAEFB041DB1B48800AF2532 /* SpotiNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EAEFAE71DB1B48800AF2532 /* SpotiN */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */,
+				0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */,
+				0EAEFAEC1DB1B48800AF2532 /* Main.storyboard */,
+				0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */,
+				0EAEFAF11DB1B48800AF2532 /* LaunchScreen.storyboard */,
+				0EAEFAF41DB1B48800AF2532 /* Info.plist */,
+			);
+			path = SpotiN;
+			sourceTree = "<group>";
+		};
+		0EAEFAFC1DB1B48800AF2532 /* SpotiNTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEFAFD1DB1B48800AF2532 /* SpotiNTests.swift */,
+				0EAEFAFF1DB1B48800AF2532 /* Info.plist */,
+			);
+			path = SpotiNTests;
+			sourceTree = "<group>";
+		};
+		0EAEFB071DB1B48800AF2532 /* SpotiNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEFB081DB1B48800AF2532 /* SpotiNUITests.swift */,
+				0EAEFB0A1DB1B48800AF2532 /* Info.plist */,
+			);
+			path = SpotiNUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EAEFAE41DB1B48800AF2532 /* SpotiN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAEFB0D1DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiN" */;
+			buildPhases = (
+				0EAEFAE11DB1B48800AF2532 /* Sources */,
+				0EAEFAE21DB1B48800AF2532 /* Frameworks */,
+				0EAEFAE31DB1B48800AF2532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotiN;
+			productName = SpotiN;
+			productReference = 0EAEFAE51DB1B48800AF2532 /* SpotiN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EAEFAF81DB1B48800AF2532 /* SpotiNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAEFB101DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNTests" */;
+			buildPhases = (
+				0EAEFAF51DB1B48800AF2532 /* Sources */,
+				0EAEFAF61DB1B48800AF2532 /* Frameworks */,
+				0EAEFAF71DB1B48800AF2532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EAEFAFB1DB1B48800AF2532 /* PBXTargetDependency */,
+			);
+			name = SpotiNTests;
+			productName = SpotiNTests;
+			productReference = 0EAEFAF91DB1B48800AF2532 /* SpotiNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EAEFB031DB1B48800AF2532 /* SpotiNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAEFB131DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNUITests" */;
+			buildPhases = (
+				0EAEFB001DB1B48800AF2532 /* Sources */,
+				0EAEFB011DB1B48800AF2532 /* Frameworks */,
+				0EAEFB021DB1B48800AF2532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EAEFB061DB1B48800AF2532 /* PBXTargetDependency */,
+			);
+			name = SpotiNUITests;
+			productName = SpotiNUITests;
+			productReference = 0EAEFB041DB1B48800AF2532 /* SpotiNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EAEFADD1DB1B48800AF2532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BTEC;
+				TargetAttributes = {
+					0EAEFAE41DB1B48800AF2532 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J9YX8GLHLU;
+						ProvisioningStyle = Automatic;
+					};
+					0EAEFAF81DB1B48800AF2532 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J9YX8GLHLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EAEFAE41DB1B48800AF2532;
+					};
+					0EAEFB031DB1B48800AF2532 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J9YX8GLHLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EAEFAE41DB1B48800AF2532;
+					};
+				};
+			};
+			buildConfigurationList = 0EAEFAE01DB1B48800AF2532 /* Build configuration list for PBXProject "SpotiN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EAEFADC1DB1B48800AF2532;
+			productRefGroup = 0EAEFAE61DB1B48800AF2532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EAEFAE41DB1B48800AF2532 /* SpotiN */,
+				0EAEFAF81DB1B48800AF2532 /* SpotiNTests */,
+				0EAEFB031DB1B48800AF2532 /* SpotiNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EAEFAE31DB1B48800AF2532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAEFAF31DB1B48800AF2532 /* LaunchScreen.storyboard in Resources */,
+				0EAEFAF01DB1B48800AF2532 /* Assets.xcassets in Resources */,
+				0EAEFAEE1DB1B48800AF2532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFAF71DB1B48800AF2532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFB021DB1B48800AF2532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EAEFAE11DB1B48800AF2532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAEFAEB1DB1B48800AF2532 /* ViewController.swift in Sources */,
+				0EAEFAE91DB1B48800AF2532 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFAF51DB1B48800AF2532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAEFAFE1DB1B48800AF2532 /* SpotiNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAEFB001DB1B48800AF2532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAEFB091DB1B48800AF2532 /* SpotiNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EAEFAFB1DB1B48800AF2532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EAEFAE41DB1B48800AF2532 /* SpotiN */;
+			targetProxy = 0EAEFAFA1DB1B48800AF2532 /* PBXContainerItemProxy */;
+		};
+		0EAEFB061DB1B48800AF2532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EAEFAE41DB1B48800AF2532 /* SpotiN */;
+			targetProxy = 0EAEFB051DB1B48800AF2532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EAEFAEC1DB1B48800AF2532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EAEFAED1DB1B48800AF2532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EAEFAF11DB1B48800AF2532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EAEFAF21DB1B48800AF2532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EAEFB0B1DB1B48800AF2532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EAEFB0C1DB1B48800AF2532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EAEFB0E1DB1B48800AF2532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0EAEFB0F1DB1B48800AF2532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0EAEFB111DB1B48800AF2532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotiN.app/SpotiN";
+			};
+			name = Debug;
+		};
+		0EAEFB121DB1B48800AF2532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotiN.app/SpotiN";
+			};
+			name = Release;
+		};
+		0EAEFB141DB1B48800AF2532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpotiN;
+			};
+			name = Debug;
+		};
+		0EAEFB151DB1B48800AF2532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9YX8GLHLU;
+				INFOPLIST_FILE = SpotiNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.btec.SpotiNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpotiN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EAEFAE01DB1B48800AF2532 /* Build configuration list for PBXProject "SpotiN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAEFB0B1DB1B48800AF2532 /* Debug */,
+				0EAEFB0C1DB1B48800AF2532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAEFB0D1DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAEFB0E1DB1B48800AF2532 /* Debug */,
+				0EAEFB0F1DB1B48800AF2532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EAEFB101DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAEFB111DB1B48800AF2532 /* Debug */,
+				0EAEFB121DB1B48800AF2532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EAEFB131DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAEFB141DB1B48800AF2532 /* Debug */,
+				0EAEFB151DB1B48800AF2532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EAEFADD1DB1B48800AF2532 /* Project object */;
+}
