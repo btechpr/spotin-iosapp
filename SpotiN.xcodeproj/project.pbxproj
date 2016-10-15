@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0EAEFAE91DB1B48800AF2532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */; };
-		0EAEFAEB1DB1B48800AF2532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */; };
 		0EAEFAEE1DB1B48800AF2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEC1DB1B48800AF2532 /* Main.storyboard */; };
 		0EAEFAF01DB1B48800AF2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */; };
 		0EAEFAF31DB1B48800AF2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAEFAF11DB1B48800AF2532 /* LaunchScreen.storyboard */; };
 		0EAEFAFE1DB1B48800AF2532 /* SpotiNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFAFD1DB1B48800AF2532 /* SpotiNTests.swift */; };
 		0EAEFB091DB1B48800AF2532 /* SpotiNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEFB081DB1B48800AF2532 /* SpotiNUITests.swift */; };
+		0EE95C6C1DB1B81B00B2969E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE95C6B1DB1B81B00B2969E /* MapViewController.swift */; };
+		0EE95C6E1DB1B83C00B2969E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE95C6D1DB1B83C00B2969E /* AuthViewController.swift */; };
+		0EE95C701DB1B89600B2969E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE95C6F1DB1B89600B2969E /* CreateAccountViewController.swift */; };
+		0EE95C721DB1BD2200B2969E /* SpotsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE95C711DB1BD2200B2969E /* SpotsTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0EAEFAE51DB1B48800AF2532 /* SpotiN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotiN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EAEFAED1DB1B48800AF2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAEFAF21DB1B48800AF2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		0EAEFB041DB1B48800AF2532 /* SpotiNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAEFB081DB1B48800AF2532 /* SpotiNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiNUITests.swift; sourceTree = "<group>"; };
 		0EAEFB0A1DB1B48800AF2532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE95C6B1DB1B81B00B2969E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0EE95C6D1DB1B83C00B2969E /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		0EE95C6F1DB1B89600B2969E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0EE95C711DB1BD2200B2969E /* SpotsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				0EAEFAE81DB1B48800AF2532 /* AppDelegate.swift */,
-				0EAEFAEA1DB1B48800AF2532 /* ViewController.swift */,
+				0EE95C6B1DB1B81B00B2969E /* MapViewController.swift */,
+				0EE95C6F1DB1B89600B2969E /* CreateAccountViewController.swift */,
+				0EE95C711DB1BD2200B2969E /* SpotsTabViewController.swift */,
+				0EE95C6D1DB1B83C00B2969E /* AuthViewController.swift */,
 				0EAEFAEC1DB1B48800AF2532 /* Main.storyboard */,
 				0EAEFAEF1DB1B48800AF2532 /* Assets.xcassets */,
 				0EAEFAF11DB1B48800AF2532 /* LaunchScreen.storyboard */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAEFAEB1DB1B48800AF2532 /* ViewController.swift in Sources */,
+				0EE95C701DB1B89600B2969E /* CreateAccountViewController.swift in Sources */,
+				0EE95C6E1DB1B83C00B2969E /* AuthViewController.swift in Sources */,
+				0EE95C721DB1BD2200B2969E /* SpotsTabViewController.swift in Sources */,
+				0EE95C6C1DB1B81B00B2969E /* MapViewController.swift in Sources */,
 				0EAEFAE91DB1B48800AF2532 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J9YX8GLHLU;
 				INFOPLIST_FILE = SpotiN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J9YX8GLHLU;
 				INFOPLIST_FILE = SpotiN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +526,7 @@
 				0EAEFB0F1DB1B48800AF2532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EAEFB101DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +535,7 @@
 				0EAEFB121DB1B48800AF2532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EAEFB131DB1B48800AF2532 /* Build configuration list for PBXNativeTarget "SpotiNUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +544,7 @@
 				0EAEFB151DB1B48800AF2532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
